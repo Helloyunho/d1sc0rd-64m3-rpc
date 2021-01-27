@@ -177,7 +177,6 @@ export class RPC {
         console.warn('WARNING!! Unknown status came out.')
       }
     }
-    console.log(lang)
     this.presence
       .setLargeImage(lang)
       .setLargeText(await this.formatText(largeText))
