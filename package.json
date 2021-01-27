@@ -2,7 +2,7 @@
 	"name": "d1sc0rd-64m3-rpc",
 	"displayName": "D1sc0rd 64m3 RPC",
 	"description": "Another discord rpc extension for Visual Studio Code but it's kinda weird",
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"license": "MIT",
 	"icon": "images/discord.png",
 	"keywords": [
