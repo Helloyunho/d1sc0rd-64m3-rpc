@@ -5,6 +5,11 @@
 	"version": "1.0.0",
 	"license": "MIT",
 	"icon": "images/discord.png",
+	"publisher": "helloyunho1",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Helloyunho/d1sc0rd-64m3-rpc"
+	},
 	"keywords": [
 		"discord",
 		"d1sc0rd",
