@@ -1,0 +1,15 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "project": "./tsconfig.json"
+  },
+  "plugins": ["@typescript-eslint"],
+  "rules": {
+    "space-before-function-paren": "off",
+    "@typescript-eslint/space-before-function-paren": ["off"]
+  },
+  "extends": "standard-with-typescript"
+}
