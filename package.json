@@ -1,8 +1,15 @@
 {
 	"name": "d1sc0rd-64m3-rpc",
 	"displayName": "D1sc0rd 64m3 RPC",
-	"description": "Another Discord game rpc, but it's weird",
+	"description": "Another discord rpc extension for Visual Studio Code but it's kinda weird",
 	"version": "0.0.1",
+	"license": "MIT",
+	"icon": "images/discord.png",
+	"keywords": [
+		"discord",
+		"d1sc0rd",
+		"rpc"
+	],
 	"engines": {
 		"vscode": "^1.52.0"
 	},
@@ -148,6 +155,7 @@
 		"glob": "^7.1.6",
 		"mocha": "^8.1.3",
 		"typescript": "^4.1.2",
+		"vsce": "^1.84.0",
 		"vscode-test": "^1.4.1"
 	},
 	"dependencies": {
