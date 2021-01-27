@@ -55,9 +55,12 @@ export async function activate(
     }
   )
 
-  connectEventListeners()
-  await rpc.connect()
-  connected = true
+  const config = vscode.workspace.getConfiguration('d1sc0rd-64m3-rpc')
+  if (config.get('autoConnect') === true) {
+    connectEventListeners()
+    await rpc.connect()
+    connected = true
+  }
 
   context.subscriptions.push(connect, disconnect, reconnect)
 }
