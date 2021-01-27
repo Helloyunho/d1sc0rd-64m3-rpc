@@ -2,10 +2,18 @@
 	"name": "d1sc0rd-64m3-rpc",
 	"displayName": "D1sc0rd 64m3 RPC",
 	"description": "Another discord rpc extension for Visual Studio Code but it's kinda weird",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"license": "MIT",
 	"icon": "images/discord.png",
 	"publisher": "helloyunho1",
+	"author": {
+		"name": "Helloyunho",
+		"url": "https://helloyunho.xyz"
+	},
+	"galleryBanner": {
+		"color": "#4C6AA9",
+		"theme": "dark"
+	},
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/Helloyunho/d1sc0rd-64m3-rpc"
